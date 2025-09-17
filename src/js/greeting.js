@@ -1,0 +1,1 @@
+export const greeting = (name = "Alexandra") => `Hello, ${name}! Welcome to your Pro Webpack Boilerplate.`;

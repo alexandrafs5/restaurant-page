@@ -1,0 +1,24 @@
+@import './reset.css';
+
+/* CSS variables */
+:root {
+  --primary-color: #8a2be2;
+  --secondary-color: #ff4081;
+  --font-stack: 'Segoe UI', sans-serif;
+}
+
+/* Global styles */
+body {
+  font-family: var(--font-stack);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: var(--primary-color);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
